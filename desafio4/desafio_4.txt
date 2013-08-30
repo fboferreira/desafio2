@@ -1,0 +1,7 @@
+Responda: para que servem as propriedades dinâmicas de um evento?
+
+São propriedades que não precisam ser conhecidas em tempo de compilação e são resolvidas em tempo de execução. Fornecendo dados para ajudar na tomada de decição. 
+
+Cite um exemplo de caso de uso.
+
+Um caso de uso seria a monitoração de um site de e-commerce onde monitormos a carga de “cliente” e não podemos definir quantos servidores de front-end são necessarios para um dia de compras atípico ex: black friday. Com a utilização de EPL com propriedades dinâmicas desse evento podemos utilizar trigers para executar scripts de deploy de mais servidores automaticamente e assim permitir a continuidade da operação, sem gerar perda para o e-commerce.
